@@ -1,0 +1,32 @@
+.frame {
+  width: 600px;
+  height: 600px;
+  background: grey;
+}
+
+.transition {
+  text-align: center;
+  padding-top: 25%;
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+
+.content {
+  background: rgba( 0, 0, 0, 0.9 );
+  bottom: -100%;
+  color: #fff;
+  height: 300px;
+  left: 0%;
+  text-align: center;
+  position: absolute;
+  transition: bottom 0.5s ease;
+  width: 100%;
+}
+
+.transition:hover .content {
+  bottom: 0%;
+}
